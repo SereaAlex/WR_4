@@ -1,0 +1,20 @@
+1) an instance of the script is already running
+
+Apr 27 16:56:04 DESKTOP-E627962 up.sh: Script started.
+Apr 27 16:56:04 DESKTOP-E627962 up.sh: An instance of this script is already running.
+Apr 27 16:56:04 DESKTOP-E627962 up.sh: Script exited.
+
+2) internet connection is functional + the mirrors are already created
+
+Apr 27 15:58:38 DESKTOP-E627962 up.sh: Script started.
+Apr 27 15:58:53 DESKTOP-E627962 up.sh: Network connectivity is functional.
+Apr 27 15:58:57 DESKTOP-E627962 systemd[1]: Starting Update APT News...
+Apr 27 15:58:57 DESKTOP-E627962 systemd[1]: Starting Update the local ESM caches...
+Apr 27 15:58:58 DESKTOP-E627962 systemd[1]: esm-cache.service: Deactivated successfully.
+Apr 27 15:58:58 DESKTOP-E627962 systemd[1]: Finished Update the local ESM caches.
+Apr 27 15:59:01 DESKTOP-E627962 up.sh: Updated the Linux system.
+Apr 27 15:59:02 DESKTOP-E627962 systemd[1]: apt-news.service: Deactivated successfully.
+Apr 27 15:59:02 DESKTOP-E627962 systemd[1]: Finished Update APT News.
+Apr 27 15:59:44 DESKTOP-E627962 up.sh: Updated the local mirror of the linux kernel.
+Apr 27 15:59:46 DESKTOP-E627962 up.sh: Updated the local mirror of glibc.
+Apr 27 15:59:46 DESKTOP-E627962 up.sh: Script ended.

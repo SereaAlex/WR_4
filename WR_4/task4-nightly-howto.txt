@@ -1,0 +1,4 @@
+crontab -e
+
+#1:00 AM every day of the month, every day of the month, every month, every day of the week, path to the script
+0 1 * * * /home/alex/Desktop/up.sh
